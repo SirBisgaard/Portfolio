@@ -1,5 +1,6 @@
 # Portfolio
-A portfolio website in blazor.
+This is my personal photo portfolio website. Sir Bisgaard.
+
 
 
 ## Docker
