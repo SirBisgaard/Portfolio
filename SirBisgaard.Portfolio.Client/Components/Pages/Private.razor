@@ -1,0 +1,39 @@
+﻿@page "/private"
+@inject NavigationManager MyNavigationManager
+
+<PageTitle>Sir Bisgaard - Privatlivspolitik</PageTitle>
+
+<PageCover Title="Privatlivspolitik"></PageCover>
+
+<h2>Hvem vi er</h2>
+<p>Min webadresse er: @(new Uri(MyNavigationManager?.Uri ?? string.Empty).GetLeftPart(UriPartial.Authority)).</p>
+
+<h2>Kommentarer</h2>
+<p>Når besøgende efterlader kommentarer på webstedet, indsamler vi de oplysninger, der vises i kommentarformularen, samt besøgendes IP-adresse og browserbrugeragentstreng for at hjælpe med spamdetektion.</p>
+<p>Der kan gives en anonymiseret streng, der er oprettet ud fra din e-mail-adresse (også kaldet en hash), til Gravatar-tjenesten for at se, om du bruger den. Gravatar-tjenestens privatlivspolitik er tilgængelig her: https://automattic.com/privacy/. Efter godkendelse af din kommentar er dit profilbillede synligt for offentligheden i forbindelse med din kommentar.</p>
+
+<h2>Medier</h2>
+<p>Hvis du uploader billeder til webstedet, bør du undgå at uploade billeder med indlejrede placeringdata (EXIF GPS). Besøgende på webstedet kan downloade og udtrække eventuelle placeringdata fra billeder på webstedet.</p>
+
+<h2>Cookies</h2>
+<p>Hvis du efterlader en kommentar på vores websted, kan du vælge at gemme dit navn, e-mail-adresse og websted i cookies. Disse er til din bekvemmelighed, så du ikke behøver at udfylde dine oplysninger igen, når du efterlader en anden kommentar. Disse cookies varer i et år.</p>
+<p>Hvis du besøger vores login-side, vil vi oprette en midlertidig cookie for at afgøre, om din browser accepterer cookies. Denne cookie indeholder ingen personlige data og kasseres, når du lukker din browser.</p>
+<p>Når du logger ind, vil vi også oprette flere cookies for at gemme dine loginoplysninger og dine skærmvalg. Logincookies varer i to dage, og cookies for skærmindstillinger varer i et år. Hvis du vælger “Husk mig”, vil din login forblive i to uger. Hvis du logger ud af din konto, fjernes logincookiesne.</p>
+<p>Hvis du redigerer eller udgiver en artikel, gemmes der en yderligere cookie i din browser. Denne cookie indeholder ingen personlige data og angiver blot indlægets ID. Den udløber efter 1 dag.</p>
+
+<h2>Indlejret indhold fra andre websteder</h2>
+<p>Artikler på dette websted kan indeholde indlejret indhold (f.eks. videoer, billeder, artikler osv.). Indlejret indhold fra andre websteder opfører sig på præcis samme måde, som hvis besøgende havde besøgt det andet websted.</p>
+<p>Disse websteder kan indsamle data om dig, bruge cookies, indlejre yderligere tredjeparts sporing og overvåge din interaktion med det indlejrede indhold, herunder spore din interaktion med det indlejrede indhold, hvis du har en konto og er logget ind på det websted.</p>
+
+<h2>Hvem vi deler dine data med</h2>
+<p>Hvis du anmoder om en nulstilling af adgangskoden, vil din IP-adresse blive inkluderet i nulstillings-e-mailen.</p>
+
+<h2>Hvor længe vi opbevarer dine data</h2>
+<p>Hvis du efterlader en kommentar, opbevares kommentaren og dens metadata på ubestemt tid. Dette gøres, så vi kan genkende og godkende eventuelle opfølgende kommentarer automatisk i stedet for at holde dem i en moderationskø.</p>
+<p>For brugere, der registrerer sig på vores websted (hvis nogen), opbevarer vi også de personlige oplysninger, de giver i deres brugerprofil. Alle brugere kan se, redigere eller slette deres personlige oplysninger når som helst (undtagen de kan ikke ændre deres brugernavn). Webstedsadministratorer kan også se og redigere disse oplysninger.</p>
+
+<h2>Hvilke rettigheder du har over dine data</h2>
+<p>Hvis du har en konto på dette websted eller har efterladt kommentarer, kan du anmode om at modtage en eksporteret fil med de personlige oplysninger, vi har om dig, herunder eventuelle data, du har givet os. Du kan også anmode om, at vi sletter eventuelle personlige oplysninger, vi har om dig. Dette inkluderer ikke nogen data, vi er forpligtet til at opbevare af administrative, juridiske eller sikkerhedsmæssige årsager.</p>
+
+<h2>Hvor vi sender dine data</h2>
+<p>Besøgendes kommentarer kan kontrolleres gennem en automatiseret spam-detektionstjeneste.</p>

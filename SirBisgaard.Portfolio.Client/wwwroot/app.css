@@ -2,6 +2,15 @@
     font-family: sans-serif;
 }
 
+.title, h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Serif Display", serif !important;
+    font-weight: bold !important;
+}
+
+.title {
+    font-size: clamp(2.2rem, 1.6666rem + 2.667vw, 4rem) !important;
+}
+
 body {
     background-color: rgb(244, 244, 244)
 }
@@ -9,4 +18,19 @@ body {
 #pageheaderLogo {
     max-width: 100px;
     max-width: 100px;
+}
+
+.carousel-title {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    /*color: var(--bs-carousel-caption-color);*/
+    text-align: center;
+}
+
+.carousel-title h1 {
+    font-size: clamp(2.629rem, 2.629rem + ((1vw - 0.2rem) * 3.513), 5rem) !important;
+    text-shadow: 0 0 10px white;
 }

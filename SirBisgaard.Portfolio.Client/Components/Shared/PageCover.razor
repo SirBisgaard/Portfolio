@@ -1,3 +1,16 @@
-﻿@rendermode InteractiveServer
+﻿<div class="carousel carousel-dark slide mb-5">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="@Url" />   
+            <div class="carousel-title" style="top: @(Top.ToString(System.Globalization.CultureInfo.InvariantCulture))rem;">
+                <h1>@Title</h1>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>Cover</p>
+@code {
+    [Parameter] public string Title { get; set; } = string.Empty;
+    [Parameter] public string Url { get; set; } = "images/covers/page-cover1.jpg";
+    [Parameter] public decimal Top { get; set; } = 2m;
+}

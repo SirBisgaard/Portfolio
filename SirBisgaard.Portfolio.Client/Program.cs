@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+using Microsoft.AspNetCore.DataProtection;
 using SirBisgaard.Portfolio.Client.Components;
 
 var builder = WebApplication.CreateBuilder(args);
