@@ -34,3 +34,11 @@ body {
     font-size: clamp(2.629rem, 2.629rem + ((1vw - 0.2rem) * 3.513), 5rem) !important;
     text-shadow: 0 0 10px white;
 }
+
+.page-seperator {
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+    border-top: 0;
+    border-bottom: 2px solid #000 !important;
+}
