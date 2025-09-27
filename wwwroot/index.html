@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sir Bisgaard</title>
+  <link rel="stylesheet" href="styles/app.css" />
+  <meta name="description" content="Sir Bisgaard portefølje – fotografi og softwareudvikling." />
+</head>
+<body>
+  <header class="site-header">
+      <h1 class="site-name">Sir Bisgaard</h1>
+  </header>
+
+  <main>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+           <section class="footer-col">
+        <h3 class="footer-title">Sociale medier</h3>
+        <ul class="footer-links">
+          <li><a href="https://www.instagram.com/sir_mer_bisgaard/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/SirBisgaardPhotography" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/in/mebisgaard/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/SirBisgaard" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </section>
+    </div>
+    <div>
+      <div>© <span id="year"></span> - Sir Bisgaard</div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
