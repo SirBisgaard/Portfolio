@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "compile-sass": "sass --watch ./src/custom.scss ./wwwroot/styles/bootstrap-custom.css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
