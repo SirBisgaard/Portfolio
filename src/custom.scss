@@ -9,7 +9,11 @@ $font-family-base: 'Times', -apple-system, BlinkMacSystemFont, "Segoe UI", Robot
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
 
+$body-secondary-bg: $gray-800;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
 
 // Custom font face for Times
 @font-face {

@@ -7,84 +7,65 @@
     <link rel="stylesheet" href="styles/bootstrap-custom.css"/>
     <meta name="description" content="Sir Bisgaard portefølje – fotografi og softwareudvikling."/>
 </head>
-<body>
+<body class="h-100 d-flex flex-column bg-body-secondary">
 
-<main>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <div class="border-bottom mb-3">
-            <div class="container">
-                <a href="/"
-                   class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                    <span class="fs-4 fw-bolder">Sir Bisgaard</span>
-                </a>
-            </div>
+<header class="bg-body">
+    <div class="container">
+        <div class="d-flex justify-content-center pt-3 pb-2">
+            <a href="/"
+               class="link-body-emphasis text-decoration-none">
+                <h1 class="display-3 fw-bolder">Sir Bisgaard</h1>
+            </a>
         </div>
+    </div>
+    <div class="border-top pt-2 border-bottom pb-2">
         <div class="container">
-            <div class="d-flex align-items-center ">
+            <div class="d-flex justify-content-center">
                 <ul class="d-flex nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fs-4 fw-bolder">Hjem</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fs-4 fw-bolder">Portefølje</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fs-4 fw-bolder">Om</a></li>
                 </ul>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
+<main class="bg-body pb-5 pt-5">
+</main>
+
+<footer class="mt-5 text-white">
     <div class="container">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-            <div class="col mb-3"><a href="/"
-                                     class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
-                                     aria-label="Bootstrap">
-                <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
-                <p class="text-body-secondary">
-                <div>© <span id="copyright-site-year"></span> - Sir Bisgaard</div>
-                </p></div>
-            <div class="col mb-3"></div>
-            <div class="col mb-3"><h5>Sociale medier</h5>
+        <div class="row justify-content-center">
+            <div class="col mb-3 d-flex justify-content-center">
+                <div>
+                    <img src="images/site-logo.png" class="img-fluid" alt="Sir Bisgaard Crest"/>
+                </div>
+            </div>
+            <div class="col mb-3"><h4>Sociale medier</h4>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a class="nav-link p-0 text-body-secondary" href="https://www.instagram.com/sir_mer_bisgaard/"
+                        <a class="nav-link p-0 text-white" href="https://www.instagram.com/sir_mer_bisgaard/"
                            target="_blank" rel="noopener">Instagram</a></li>
                     <li class="nav-item mb-2">
-                        <a class="nav-link p-0 text-body-secondary"
+                        <a class="nav-link p-0 text-white"
                            href="https://www.facebook.com/SirBisgaardPhotography" target="_blank" rel="noopener">Facebook</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a class="nav-link p-0 text-body-secondary" href="https://www.linkedin.com/in/mebisgaard/"
+                        <a class="nav-link p-0 text-white" href="https://www.linkedin.com/in/mebisgaard/"
                            target="_blank" rel="noopener">LinkedIn</a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a class="nav-link p-0 text-body-secondary" href="https://github.com/SirBisgaard"
+                        <a class="nav-link p-0 text-white" href="https://github.com/SirBisgaard"
                            target="_blank" rel="noopener">GitHub</a>
                     </li>
                 </ul>
             </div>
-            <div class="col mb-3"><h5>Section</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                </ul>
-            </div>
-            <div class="col mb-3"><h5>Section</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                </ul>
-            </div>
-        </footer>
+        </div>
+
+        <div class="d-block text-center text-white">© <span id="copyright-site-year"></span> - Sir Bisgaard</div>
     </div>
-</main>
+</footer>
 <script>
     document.getElementById('copyright-site-year').textContent = new Date().getFullYear();
 </script>
